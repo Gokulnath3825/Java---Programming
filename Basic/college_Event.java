@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class college_Event {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int registration=sc.nextInt();
+        int sponsorship=sc.nextInt();
+        int stall=sc.nextInt();
+        int stage=sc.nextInt();
+        int celebrity=sc.nextInt();
+        int marketing=sc.nextInt();
+
+        int Fund =registration+ sponsorship+stall-stage-celebrity-marketing;
+
+;
+
+        System.out.println("Remaining Fund = "+Fund);
+        sc.close();
+    }
+    
+}
